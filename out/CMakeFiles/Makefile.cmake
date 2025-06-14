@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/cyyu20/webserver/WebServer-cyy/CMakeLists.txt"
-  "/home/cyyu20/webserver/WebServer-cyy/config/build.cmake"
+  "/home/cyyu20/webserver/WebServer-sheep/CMakeLists.txt"
+  "/home/cyyu20/webserver/WebServer-sheep/config/build.cmake"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
@@ -128,5 +128,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/WebServer.dir/DependInfo.cmake"
-  "CMakeFiles/AsioTest.dir/DependInfo.cmake"
   )

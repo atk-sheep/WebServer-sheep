@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyyu20/webserver/WebServer-cyy
+# Install script for directory: /home/cyyu20/webserver/WebServer-sheep
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cyyu20/webserver/WebServer-cyy/out/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cyyu20/webserver/WebServer-sheep/out/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cyyu20/webserver/WebServer-cyy/include
+CXX_INCLUDES = -I/home/cyyu20/webserver/WebServer-sheep/include
 
 CXX_FLAGS =  -pthread -std=gnu++17
 

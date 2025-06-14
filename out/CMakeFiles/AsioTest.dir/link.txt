@@ -1,1 +1,0 @@
-/usr/bin/c++  -pthread CMakeFiles/AsioTest.dir/asio_test/asioTest.cpp.o -o bin/AsioTest 

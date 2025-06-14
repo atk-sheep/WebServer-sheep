@@ -12,6 +12,12 @@ option(ASIOTEST "enable asiotest" OFF)
 if(WEBSERVER)
     add_executable(${PROJECT_NAME} webserver/main.cpp)
 
+    file(GLOB_RECURSE src "${CMAKE_SOURCE_DIR}/src/*.cpp")
+
+    message("${src}")
+
+    target_sources(${PROJECT_NAME} PUBLIC ${src})
+
     target_include_directories(${PROJECT_NAME} PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include)
 endif()

@@ -8,7 +8,10 @@
 #include <iostream>
 #include "asio.hpp"
 
+#include "threadPool.hpp"
+
 using namespace std;
+using namespace asio::ip;
 
 static void SigHandler(int32_t sigNum){
     cout<< "receieve signal: "<< sigNum <<endl;
@@ -45,7 +48,13 @@ int main(){
 
     handle_for_sigpipe();
 
+    if(!getThreadPool().threadCreate()) {
+        return -1;
+    }
+
     asio::io_context io;
+
+    
 
     asio::post(io, [](){
         cout<< "asio post" << endl; 
