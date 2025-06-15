@@ -8,8 +8,9 @@ include(config/build.cmake)
 
 option(WEBSERVER "enable webserver" ON)
 option(ASIOTEST "enable asiotest" OFF)
+option(TESTER "enable tester" OFF)
 
-if(WEBSERVER)
+if(WEBSERVER STREQUAL "ON")
     add_executable(${PROJECT_NAME} webserver/main.cpp)
 
     file(GLOB_RECURSE src "${CMAKE_SOURCE_DIR}/src/*.cpp")
@@ -20,6 +21,10 @@ if(WEBSERVER)
 
     target_include_directories(${PROJECT_NAME} PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+    if(TESTER)
+        
+    endif()
 endif()
 
 if(ASIOTEST)
