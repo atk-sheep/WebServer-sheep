@@ -12,4 +12,4 @@ set(
     ${CMAKE_BINARY_DIR}/bin
 )
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -g -O0")

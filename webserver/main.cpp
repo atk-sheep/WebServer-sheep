@@ -9,6 +9,7 @@
 #include "asio.hpp"
 
 #include "threadPool.hpp"
+#include "TcpServer.hpp"
 
 using namespace std;
 using namespace asio::ip;
@@ -44,7 +45,7 @@ static void handle_for_sigpipe()
 }
 
 int main(){
-    SigSetup();
+    // SigSetup();
 
     handle_for_sigpipe();
 
@@ -54,11 +55,9 @@ int main(){
 
     asio::io_context io;
 
-    
+    getTcpServer(io, 6789).start();
 
-    asio::post(io, [](){
-        cout<< "asio post" << endl; 
-    });
+    cout<< "tcpserver start"<<endl;
 
     io.run();
 
