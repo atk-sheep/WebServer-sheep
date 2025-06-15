@@ -1,3 +1,0 @@
-/home/cyyu20/webserver/WebServer-sheep/out/CMakeFiles/WebServer.dir
-/home/cyyu20/webserver/WebServer-sheep/out/CMakeFiles/edit_cache.dir
-/home/cyyu20/webserver/WebServer-sheep/out/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++  -pthread CMakeFiles/WebServer.dir/webserver/main.cpp.o CMakeFiles/WebServer.dir/src/TcpServer.cpp.o CMakeFiles/WebServer.dir/src/baseData.cpp.o CMakeFiles/WebServer.dir/src/threadPool.cpp.o -o bin/WebServer 
